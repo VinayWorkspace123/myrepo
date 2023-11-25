@@ -9,7 +9,7 @@ import ClickOnLink from './components/ClickOnLink';
 import Dashboard from './components/Dashboard';
 import Actions from './components/Actions';
 import AnotherActions from './components/AnotherActions';
-import Signup from './components/Signup';
+import Signin from './components/Signin';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -21,7 +21,7 @@ root.render(
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/actions" element={<Actions />} />
         <Route path="/anotheractions" element={<AnotherActions />} />
-        <Route path="/signup" element={<Signup />} />
+        <Route path="/signin" element={<Signin />} />
       </Routes>
     </BrowserRouter> 
   </React.StrictMode>

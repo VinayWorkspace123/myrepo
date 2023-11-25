@@ -24,8 +24,8 @@ export default function HeaderComponent() {
                         </NavDropdown>
                     </Nav>
                     <Nav className="ms-auto">
-                        <Nav.Link href="">Sign In</Nav.Link>
-                        <Nav.Link href="/signup">Sign Up</Nav.Link>
+                        <Nav.Link href="/signin">Sign In</Nav.Link>
+                        <Nav.Link href="">Sign Up</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
